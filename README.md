@@ -9,7 +9,7 @@ Besides a device, of course ...
 
 Set your device in the DIY (Do It Yourself) mode in order to use this driver.
 
-Check this link [Setting up Sonoff DIY mode](https://github.com/itead/Sonoff_Devices_DIY_Tools/blob/master/SONOFF%20DIY%20MODE%20Protocol%20Doc%20v1.4.md)
+Check this link [Setting up Sonoff DIY mode](https://github.com/itead/Sonoff_Devices_DIY_Tools/blob/master/SONOFF%20DIY%20MODE%20Protocol%20Doc%20v1.4.md) to set your device in DIY mode.
 
 ## Installation
 
