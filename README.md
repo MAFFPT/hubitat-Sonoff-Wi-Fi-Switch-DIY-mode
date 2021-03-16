@@ -11,7 +11,23 @@ Set your device in the DIY (Do It Yourself) mode in order to use this driver.
 
 Check this link [Setting up Sonoff DIY mode](https://github.com/itead/Sonoff_Devices_DIY_Tools/blob/master/SONOFF%20DIY%20MODE%20Protocol%20Doc%20v1.4.md) to set your device in DIY mode.
 
-## Installation
+## Driver installation
+
+You have two options to install this driver at your Hubitat Elevation hub:
+
+- Automatically, using the awsome @dman2306's Hubitat Package Manager (HPM)
+
+Using HPM, select the **Install** option at HPM main page, then, using the **Search by Keywords**, search for "sonoff diy". It should show the
+
+Check the HPM documentation on how to install HPM in your hub.
+
+This is the preferable option.
+
+- Manually
+
+Follow Hubitat's instructions on how to install manually a device driver by clicking [here](https://docs.hubitat.com/index.php?title=How_to_Install_Custom_Drivers#:~:text=From%20the%20home%20page%20of,opens%20the%20Edit%20Device%20view.)
+
+
 
 - At the Hubitat Elevation (HE) device's page, click the **Add Virtual Device button**
 - Fill in the **Device Name** and **Device Label** fields
