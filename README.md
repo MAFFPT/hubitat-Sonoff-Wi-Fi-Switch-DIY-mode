@@ -6,7 +6,7 @@ Hubitat Elevation driver for the Sonoff mini r2 running in DIY mode.
 - At the Hubitat Elevation (HE) device's page, click the **Add Virtual Device button**
 - Fill in the **Device Name** and **Device Label** fields
 - Select the **Sonoff switch DIY mode** driver a the Type field 
-- - Note: it is located by the end of the list, with all other device drivers you have installed
+-- Note: it is located by the end of the list, with all other device drivers you have installed
 - Click at the **Save** button
 
 Pronto! Your device is installed. Now proceed to configure it.
