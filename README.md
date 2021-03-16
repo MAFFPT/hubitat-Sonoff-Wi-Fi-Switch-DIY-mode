@@ -53,7 +53,7 @@ Same as **Get Info** command
 
 - Fixed IP address
  
-It is desirable to use fixed IP address for your Sonoff Switch; check your router documentation on how to assign a fixed IP address for your device
+It is desirable to use fixed IP address for your Sonoff Switch; check your router documentation on how to assign a fixed IP address for your device.
 
 - Including support for other Sonoff Switches
 
