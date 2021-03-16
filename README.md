@@ -5,7 +5,7 @@ Hubitat Elevation driver for the Sonoff mini r2 running in DIY mode.
 
 Besides a device, of course ...
 
-### DIY mode
+- DIY mode
 
 Set your device in the DIY (Do It Yourself) mode in order to use this driver.
 
