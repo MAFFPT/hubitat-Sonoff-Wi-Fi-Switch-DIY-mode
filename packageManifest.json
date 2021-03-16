@@ -1,36 +1,20 @@
 {
-  "packageName": "Nuki Smart Lock 2.0 Integration",
-  "author": "Marco Felicio (maffpt@gmail.com)",
-  "version": "0.6.3",
-  "minimumHEVersion": "2.1.9",
-  "dateReleased": "2021-02-24",	
+  "packageName": "Sonoff switch DIY mode",
+  "author": "Marco Felicio (@maffpt)",
+  "version": "0.1.0",
+  "minimumHEVersion": "2.2.5",
+  "dateReleased": "2021-03-16",
   "documentationLink": "https://github.com/MAFFPT/hubitat-Sonoff-switch-DIY-mode/blob/main/README.md",
   "communityLink": "https://community.hubitat.com/t/beta-nuki-smart-lock-2-0/40654",
   "licenseFile": "https://github.com/MAFFPT/hubitat-Sonoff-switch-DIY-mode/blob/main/README.md",
   "releaseNotes": "Initial beta",
-  "apps":    [{"id":         "d8453be8-b65a-4d79-ac30-307cf8951b67",
-      	       "name":       "Nuki Smart Lock 2.0 Integration",
-      	       "namespace":  "maffpt",
-      	       "location":   "https://raw.githubusercontent.com/MAFFPT/Hubitat/master/Nuki%20Smart%20Lock%202.0/Apps%20%26%20drivers/debug/apps/Nuki%20Smart%20Lock%202.0%20Integration.groovy",
-      	       "required":   true,
-      	       "oauth":      false}
-             ],
-  "drivers": [{"id":         "798e15d4-01ac-4266-a223-c3473c36db82",
-      	       "name":       "Nuki Bridge",
-               "namespace":  "maffpt",
-               "location":   "https://raw.githubusercontent.com/MAFFPT/Hubitat/master/Nuki%20Smart%20Lock%202.0/Apps%20%26%20drivers/debug/drivers/Nuki%20Bridge.groovy",
-               "required":    true},
-	      
-	      {"id":         "6cf831d5-6801-492d-b2b7-f51a8be42259",
-               "name":       "Nuki Opener",
-               "namespace":  "maffpt",
-               "location":   "https://raw.githubusercontent.com/MAFFPT/Hubitat/master/Nuki%20Smart%20Lock%202.0/Apps%20%26%20drivers/debug/drivers/Nuki%20Opener.groovy",
-               "required":   true},
-	      
-              {"id":         "9795b0d7-7938-4169-9e31-a5df267661dc",
-               "name":       "Nuki Smart Lock 2.0",
-               "namespace":  "maffpt",
-               "location":   "https://raw.githubusercontent.com/MAFFPT/Hubitat/master/Nuki%20Smart%20Lock%202.0/Apps%20%26%20drivers/debug/drivers/Nuki%20Smart%20Lock%202.0.groovy",
-               "required":   true}
-             ]
+  "drivers": [
+    {
+      "id": "e5e0f589-4f44-45ca-af3a-a1f1fc490a14",
+      "name": "Sonoff switch DIY mode",
+      "namespace": "maffpt.sonoff",
+      "location": "https://raw.githubusercontent.com/MAFFPT/hubitat-Sonoff-switch-DIY-mode/main/Sonoff%20switch%20DIY%20mode.groovy",
+      "required": true
+    }
+  ]
 }
