@@ -1,6 +1,16 @@
 # hubitat-Sonoff-switch-DIY-mode
 Hubitat Elevation driver for the Sonoff mini r2 running in DIY mode.
 
+## Prerequisites
+
+Besides a device, of course ...
+
+### DIY mode
+
+Set your device in the DIY (Do It Yourself) mode in order to use this driver.
+
+Check this link [Setting up Sonoff DIY mode](https://github.com/itead/Sonoff_Devices_DIY_Tools/blob/master/SONOFF%20DIY%20MODE%20Protocol%20Doc%20v1.4.md)
+
 ## Installation
 
 - At the Hubitat Elevation (HE) device's page, click the **Add Virtual Device button**
@@ -42,3 +52,4 @@ Same as **Get Info** command
 ## Comments
 
 - It is desirable to use fixed IP address for your Sonoff Switch; check your router documentation on how to assign a fixed IP address for your device
+- If you want to include other
