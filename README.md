@@ -1,4 +1,4 @@
-# hubitat-Sonoff-switch-DIY-mode
+# Sonoff Switch in DIY-mode support for Hubitat Elevation
 Hubitat Elevation driver for the Sonoff mini r2 running in DIY mode.
 
 ## Prerequisites
