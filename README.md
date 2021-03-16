@@ -25,11 +25,11 @@ Pronto! Your device is installed. Now proceed to configure it.
 
 ### Get Info
 
-  Query the device and obtain all available informations about it and display those informations at the **Current Status** section
+  Query the device and obtain all available informations about it and display those informations at the **Current Status** section.
   
 ### On
 
-  Guess what ... turn the device's switch ON !
+  Guess what ... turn the device's switch ON!
   
 ### Off
 
