@@ -1,9 +1,0 @@
-{
-	"author":    "Marco Felicio (maffpt@gmail.com)",
-	"gitHubUrl": "https://github.com/MAFFPT/hubitat-Sonoff-switch-DIY-mode",
-	"payPalUrl": "https://paypal.me/maffpt",
-	"packages": [{"name":         "Sonoff Switch DIY mode driver",
-		            "category":     "Drivers",
-	              "location":     "https://raw.githubusercontent.com/MAFFPT/Hubitat/master/Nuki%20Smart%20Lock%202.0/packageManifest.json",
-		            "description":  "Driver for Sonoff switches in DIY mode"}]
-}
