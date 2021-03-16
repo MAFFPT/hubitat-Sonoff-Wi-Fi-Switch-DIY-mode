@@ -51,5 +51,10 @@ Same as **Get Info** command
 
 ## Comments
 
-- It is desirable to use fixed IP address for your Sonoff Switch; check your router documentation on how to assign a fixed IP address for your device
-- If you want to include other
+- Fixed IP address
+ 
+It is desirable to use fixed IP address for your Sonoff Switch; check your router documentation on how to assign a fixed IP address for your device
+
+- Including support for other Sonoff Switches
+
+If you want to include support for other Sonoff switches, fell free to fork this repository in order to do it. However, I'd be glad if you create a pull request to allow me to include your changes to this main branch - it will allow to this driver to grow as new contributions are made. It's up to you! 
