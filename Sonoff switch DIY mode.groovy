@@ -22,7 +22,7 @@ import groovy.transform.Field
 
 metadata 
 {
-    definition (name: "Sonoff switch DIY mode", namespace: _Namespace, author: "Marco Felicio") 
+    definition (name: "Sonoff switch DIY mode", namespace: "maffpt.sonoff", author: "Marco Felicio") 
     {
         capability "Switch"
         command "on"
