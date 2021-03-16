@@ -25,7 +25,7 @@ Pronto! Your device is installed. Now proceed to configure it.
 
 ### Get Info
 
-  Query the device - and display it at the **Current Status** section - all available information about the device
+  Query the device and obtain all available informations about it and display those informations at the **Current Status** section
   
 ### On
 
