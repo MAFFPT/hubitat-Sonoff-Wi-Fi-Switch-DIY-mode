@@ -22,7 +22,7 @@ import groovy.transform.Field
 
 metadata 
 {
-    definition (name: "Sonoff switch DIY mode", namespace: "maffpt.sonoff", author: "Marco Felicio") 
+    definition (name: "Sonoff Wi-Fi Switch DIY mode", namespace: "maffpt.sonoff", author: "Marco Felicio (@maffpt)") 
     {
         capability "Switch"
         command "on"
@@ -61,6 +61,11 @@ def getInfo ()
     
     sendEvent (name: "deviceInformation", value: deviceData)
     
+    if (getDataValue ("switch") != deviceData.switch)
+    {
+        sendEvent (name: "switch", value: deviceData.switch)
+    }
+                   
     logDebug "getInfo: OUT"
 }
 
@@ -256,6 +261,7 @@ def executeAction (actionToExecute)
     logDebug "executeAction: OUT"
 }
 
+               
 //
 // Ask the device its data
 //
