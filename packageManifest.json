@@ -11,9 +11,9 @@
   "drivers": [
     {
       "id": "e5e0f589-4f44-45ca-af3a-a1f1fc490a14",
-      "name": "Sonoff switch DIY mode",
+      "name": "Sonoff Wi-Fi Switch DIY mode",
       "namespace": "maffpt.sonoff",
-      "location": "https://raw.githubusercontent.com/MAFFPT/hubitat-Sonoff-switch-DIY-mode/main/Sonoff%20switch%20DIY%20mode.groovy",
+      "location": "https://raw.githubusercontent.com/MAFFPT/hubitat-Sonoff-Wi-Fi-Switch-DIY-mode/main/Sonoff%20Wi-Fi%20switch%20DIY%20mode.groovy",
       "required": true
     }
   ]
