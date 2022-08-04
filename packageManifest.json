@@ -1,13 +1,13 @@
 {
   "packageName": "Sonoff Wi-Fi Switch DIY mode",
   "author": "Marco Felicio (@maffpt)",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "minimumHEVersion": "2.2.5",
-  "dateReleased": "2021-03-16",
+  "dateReleased": "2022-07-04",
   "documentationLink": "https://github.com/MAFFPT/hubitat-Sonoff-switch-DIY-mode/blob/main/README.md",
   "communityLink": "https://community.hubitat.com/t/beta-sonoff-wi-fi-switch-diy-mode/68359/1",
   "licenseFile": "https://raw.githubusercontent.com/MAFFPT/hubitat-Sonoff-Wi-Fi-Switch-DIY-mode/main/LICENSE",
-  "releaseNotes": "Initial beta",
+  "releaseNotes": "Was identified that this driver was consumming too much hub CPU. Line 62 commented to try to decrease it.",
   "drivers": [
     {
       "id": "e5e0f589-4f44-45ca-af3a-a1f1fc490a14",
