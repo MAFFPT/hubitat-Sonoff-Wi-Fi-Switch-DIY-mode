@@ -14,7 +14,7 @@
 import groovy.transform.Field
 
 @Field static _Namespace = "maffpt.sonoff"
-@Field static _driverVersion = "0.1.0"
+@Field static _driverVersion = "0.2.0"
 
 @Field static _defaultPort = "8081"
 
@@ -59,7 +59,7 @@ def getInfo ()
     
     def deviceData = getDeviceData ()
     
-    sendEvent (name: "deviceInformation", value: deviceData)
+    //sendEvent (name: "deviceInformation", value: deviceData)
     
     if (getDataValue ("switch") != deviceData.switch)
     {
